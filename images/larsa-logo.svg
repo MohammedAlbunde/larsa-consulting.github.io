@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300" height="60" viewBox="0 0 300 60" xmlns="http://www.w3.org/2000/svg">
+    <!-- Ziggurat-inspired shape -->
+    <path d="M40 50 L20 50 L25 40 L35 40 L40 30 L45 40 L55 40 L60 50 L40 50" 
+          fill="#c0392b" />
+    
+    <!-- Sun symbol -->
+    <circle cx="40" cy="25" r="10" fill="#e74c3c" />
+    <path d="M40 10 L40 15 M40 35 L40 40 M25 25 L30 25 M50 25 L55 25 M30 15 L33 18 M47 32 L44 29 M47 18 L44 21 M30 35 L33 32"
+          stroke="#e74c3c" stroke-width="2" />
+    
+    <!-- Company name -->
+    <text x="80" y="35" font-family="Arial" font-size="24" font-weight="bold" fill="#2c3e50">
+        LARSA
+    </text>
+    <text x="80" y="50" font-family="Arial" font-size="16" fill="#2c3e50">
+        TRADING
+    </text>
+    
+    <!-- Sumerian name -->
+    <text x="180" y="35" font-family="Noto Sans Cuneiform, Arial" font-size="24" fill="#2c3e50">
+        𒌓𒀕𒆠
+    </text>
+</svg>

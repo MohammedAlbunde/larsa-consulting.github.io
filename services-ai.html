@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Solutions - Larsa Trading</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Language Selector -->
+    <div class="language-dropdown">
+        <button class="dropbtn"><span class="current-lang">English</span> <i class="fas fa-chevron-down"></i></button>
+        <div class="dropdown-content">
+            <a href="#" onclick="changeLanguage('en')">English</a>
+            <a href="#" onclick="changeLanguage('fr')">Français</a>
+            <a href="#" onclick="changeLanguage('ar')">العربية</a>
+        </div>
+    </div>
+
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/larsa-logo.svg" alt="Larsa Trading Logo">
+            </a>
+        </div>
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="lang" key="nav-home">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="lang active" key="nav-services">Services <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="services-ai.html" class="lang" key="nav-ai">AI Solutions</a></li>
+                        <li><a href="services-aviation.html" class="lang" key="nav-aviation">Aviation Consulting</a></li>
+                    </ul>
+                </li>
+                <li><a href="about.html" class="lang" key="nav-about">About</a></li>
+                <li><a href="contact.html" class="lang" key="nav-contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- AI Services Hero -->
+    <section class="service-hero ai-hero">
+        <div class="service-hero-content">
+            <h1 class="lang" key="ai-title">AI Solutions</h1>
+            <p class="lang" key="ai-subtitle">Transforming Aviation Through Artificial Intelligence</p>
+        </div>
+    </section>
+
+    <!-- AI Services Grid -->
+    <section class="services-detail">
+        <div class="services-grid">
+            <div class="service-item">
+                <img src="images/ai-predictive.jpg" alt="Predictive Maintenance">
+                <h3 class="lang" key="ai-predictive">Predictive Maintenance</h3>
+                <p class="lang" key="ai-predictive-desc">Advanced AI algorithms for predicting aircraft maintenance needs, reducing downtime and enhancing safety.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/ai-optimization.jpg" alt="Route Optimization">
+                <h3 class="lang" key="ai-optimization">Flight Route Optimization</h3>
+                <p class="lang" key="ai-optimization-desc">AI-powered route planning systems for fuel efficiency and reduced environmental impact.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/ai-safety.jpg" alt="Safety Systems">
+                <h3 class="lang" key="ai-safety">Safety Systems</h3>
+                <p class="lang" key="ai-safety-desc">Machine learning models for enhanced safety protocols and risk assessment.</p>
+            </div>
+            <div class="service-item">
+                <img src="images/ai-automation.jpg" alt="Process Automation">
+                <h3 class="lang" key="ai-automation">Process Automation</h3>
+                <p class="lang" key="ai-automation-desc">Automated systems for ground operations and maintenance procedures.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- AI Capabilities -->
+    <section class="capabilities">
+        <h2 class="section-title lang" key="ai-capabilities">Our AI Capabilities</h2>
+        <div class="capabilities-content">
+            <ul class="capabilities-list">
+                <li>Deep Learning for Pattern Recognition</li>
+                <li>Natural Language Processing for Documentation</li>
+                <li>Computer Vision for Safety Inspection</li>
+                <li>Predictive Analytics for Maintenance</li>
+                <li>Machine Learning for Route Optimization</li>
+                <li>AI-Driven Decision Support Systems</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3 class="lang" key="footer-contact">Contact Information</h3>
+                <p>Mohammed Al-Bunde</p>
+                <p>Email: mohammed.albunde@example.com</p>
+                <div class="social-links">
+                    <a href="https://github.com/yourgithub" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/yourlinkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3 class="lang" key="footer-address">Address</h3>
+                <p>Montreal, Quebec, Canada</p>
+            </div>
+            <div class="footer-section">
+                <h3 class="lang" key="footer-quick-links">Quick Links</h3>
+                <ul>
+                    <li><a href="services-ai.html" class="lang" key="footer-ai">AI Solutions</a></li>
+                    <li><a href="services-aviation.html" class="lang" key="footer-aviation">Aviation Consulting</a></li>
+                    <li><a href="about.html" class="lang" key="footer-about">About Us</a></li>
+                    <li><a href="contact.html" class="lang" key="footer-contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 Larsa Trading. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/translations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
